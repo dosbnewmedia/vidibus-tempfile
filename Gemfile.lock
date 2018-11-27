@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    vidibus-tempfile (0.1.0)
+    vidibus-tempfile (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -13,7 +13,6 @@ GEM
     rake (0.8.7)
     rdoc (4.1.2)
       json (~> 1.4)
-    rr (1.1.2)
     rspec (2.99.0)
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
@@ -35,7 +34,9 @@ DEPENDENCIES
   bundler (>= 1.0.0)
   rake
   rdoc
-  rr
-  rspec (~> 2)
+  rspec
   simplecov
   vidibus-tempfile!
+
+BUNDLED WITH
+   1.16.2
